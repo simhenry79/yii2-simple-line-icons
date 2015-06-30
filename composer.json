@@ -1,0 +1,25 @@
+{
+    "name": "wfcreations/yii2-simple-line-icons",
+    "type": "yii2-extension",
+    "license": "BSD",
+    "authors": [
+        {
+            "name": "wfcreations",
+            "email": "wfcreations@gmail.com"
+        }
+    ],
+    "require": {
+        "bower-asset/simple-line-icons": "dev-master"
+    },
+    "extra": {
+        "asset-installer-paths": {
+            "npm-asset-library": "vendor/npm",
+            "bower-asset-library": "vendor/bower"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "wfcreations\\simplelineicons\\": ""
+        }
+    }
+}
