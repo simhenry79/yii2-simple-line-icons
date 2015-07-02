@@ -5,9 +5,9 @@ namespace wfcreations\simplelineicons;
 class SLI {
 
     const _USER_FEMALE = 'user-female';
-    const _USER_FALLOW = 'user-follow';
-    const _USER_FALLOWING = 'user-following';
-    const _USER_unfollow = 'user-unfollow';
+    const _USER_FOLLOW = 'user-follow';
+    const _USER_FOLLOWING = 'user-following';
+    const _USER_UNFOLLOW = 'user-unfollow';
     const _TROPHY = 'trophy';
     const _SCREEN_SMARTPHONE = 'screen-smartphone';
     const _SCREEN_DESKTOP = 'screen-desktop';
