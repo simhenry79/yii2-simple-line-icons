@@ -9,7 +9,7 @@
         }
     ],
     "require": {
-        "bower-asset/simple-line-icons": "dev-master"
+        "bower-asset/simple-line-icons": "*"
     },
     "extra": {
         "asset-installer-paths": {
