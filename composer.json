@@ -10,7 +10,7 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "bower-asset/simple-line-icons": "1.0.0-dev"
+        "bower-asset/simple-line-icons": "*"
     },
     "extra": {
         "asset-installer-paths": {
