@@ -8,6 +8,7 @@
             "email": "wfcreations@gmail.com"
         }
     ],
+    "minimum-stability": "dev",
     "require": {
         "bower-asset/simple-line-icons": "*"
     },
