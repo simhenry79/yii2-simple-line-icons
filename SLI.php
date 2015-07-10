@@ -3,6 +3,8 @@
 namespace wfcreations\simplelineicons;
 
 class SLI {
+    
+    const PREFIX_NAME = 'icon';
 
     const _USER_FEMALE = 'user-female';
     const _USER_FOLLOW = 'user-follow';
@@ -168,7 +170,11 @@ class SLI {
     const _USERS = 'users';
 
     public static function icon($name, $options = []) {
-        return new \wfcreations\simplelineicons\Icon($name, $options, '', 'icon');
+        return new \wfcreations\simplelineicons\Icon($name, $options, '', self::PREFIX_NAME);
+    }
+    
+    public static function getClass($name) {
+        return self::PREFIX_NAME . '-'. $name;
     }
 
 }
