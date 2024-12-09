@@ -10,7 +10,7 @@ class Icon {
     
     private $tag;
 
-    public function __construct($name, $options = [], $prefix, $prefixName, $tag = 'i') {
+    public function __construct($name, $options, $prefix, $prefixName, $tag = 'i') {
         Html::addCssClass($options, $prefix . ' ' . $prefixName . '-' . $name);
 
         $this->options = $options;
